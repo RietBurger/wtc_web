@@ -1,0 +1,147 @@
+/*remove all default styles applied by browser*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+
+body {
+    background-color: rgba(54, 25, 25, .5);
+}
+
+.main {
+    overflow: auto;
+    padding-bottom: 50px;
+    width:1200px;
+    height:auto;
+    margin:auto;
+}
+
+.header {
+    width:1000px;
+    height:auto;
+    margin:auto;
+    color:blue;
+    font-size:30px;
+    border:2px solid yellow;
+    text-align:center;
+    padding-top:10px;
+}
+
+/*LOGIN STYLES*/
+
+input[type=text], input[type=password], input[type=email] {
+    color:black;
+    width:100%;
+    padding: 12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color:rgb(195,82,96);
+    color: white;
+    font-size:16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color:blue;
+}
+
+/* Extra styles for the register button */
+.registerbtn {
+    padding: 14px 20px;
+    background-color:rgb(74, 39, 78);
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn,.registerbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    color:white;
+    font-size:18px;
+    padding-top: 10%;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.form_inside {
+    color:white;
+    font-size:18px;
+    padding-top: 10%;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-bottom: 16%;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn, .registerbtn
+    {
+        width: 100%;
+    }
+}
+
+li {
+    list-style: none;
+    list-style-type: none;
+}
+#home {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    font-family: "Apple Chancery";
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    height: 50px;
+    clear: both;
+}
+
+h2 {
+    color: white;
+}

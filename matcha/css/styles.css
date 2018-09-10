@@ -1,0 +1,16 @@
+div.thumbnail {
+    background: lightgreen;
+}
+
+@media (min-width: 992px) {
+    .item:nth-child(4n+1) {
+        clear: left;
+    }
+    div.thumbnail {
+        background: forestgreen;
+    }
+    .items:nth-child(5n+1) {
+        clear: left;
+    }
+}
+

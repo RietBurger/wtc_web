@@ -1,0 +1,182 @@
+/*remove all default styles applied by browser*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    background-color: rgba(54, 25, 25, .5);
+}
+
+.booth-capture-button {
+    display: block;
+    margin: 10px 0;
+    width: 400px;
+    padding:10px 20px;
+    background-color: deeppink;
+    color:white;
+    text-align:center;
+    text-decoration: none;
+}
+
+.main {
+    overflow: auto;
+    padding-bottom: 50px;
+    width:1200px;
+    height:auto;
+    margin:auto;
+    /*background-color:gray;*/
+}
+
+.header {
+    width:1000px;
+    height:auto;
+    margin:auto;
+    color:blue;
+    font-size:30px;
+    border:2px solid yellow;
+    text-align:center;
+    padding-top:10px;
+}
+
+
+.menubar {
+    width:1000px;
+    height:50px;
+    /*background-color: gray;*/
+    color:white;
+}
+
+#menu {
+    padding:0;
+    margin:0;
+    line-height:40px;
+    float:left;
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+}
+#menu a{
+    text-decoration: none;
+    color:white;
+    padding:8px;
+    margin:5px;
+    font-size:18px;
+    font-family: "Apple Chancery";
+}
+
+#menu a:hover {
+    color:red;
+    font-weight:bolder;
+    text-decoration:underline;
+}
+
+.content {
+    width:1000px;
+    height:auto;
+    margin:auto;
+}
+
+#canvas {
+    border:2px solid black;
+    float:left;
+    /*opacity:0.7;*/
+}
+
+.footer {
+    width: 100%;
+    font-family: "Apple Chancery";
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    height: 50px;
+    clear: both;
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-gap: 10px;
+}
+
+form {
+    float: left;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    color: white;
+}
